@@ -4,12 +4,13 @@
     <description>
         A hybrid game based on Mastermind and Android Swipe to Unlock feature.
     </description>
-    <author email="315mgmt@gmail.com" href="http://phonegap.com">
+    <author email="315@g.com" href="http://phonegap.com">
         ctrlz Team
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="permissions" value="none"/>
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
