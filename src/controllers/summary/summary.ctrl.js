@@ -63,7 +63,7 @@ class SummaryCtrl {
     let feedbackEl = dom.create('div', 'summary-feedback bloc', [
       dom.create('p', {}, [
         dom.create('span', {}, 'Tweet me your feedback at '),
-        dom.create('a', {href: config.SOCIAL.PLATFORMS.TWITTER.URL('', '@mxwllt', ['breaklock'])}, '@mxwllt')
+        dom.create('a', {href: config.SOCIAL.PLATFORMS.TWITTER.URL('', '@ctrlzws', ['breaklock'])}, '@ctrlzws')
       ])
     ])
 
