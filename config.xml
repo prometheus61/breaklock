@@ -11,6 +11,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="permissions" value="none"/>
+    <gap:plugin name="phonegap-admob" source="npm"/>
     <platform name="android">
         <icon   src="assets/icons/icon-128x128.png"               density="ldpi" />
         <icon   src="assets/icons/icon-144x144.png"               density="mdpi" />
